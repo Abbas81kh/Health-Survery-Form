@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCheck Survey Form</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>HealthCheck Survey</h1>
+        <br>
+        <br>
+        <b>Personal information</b><br><br>
+        <form action="/acion.php">
+            <input type="text" placeholder="Full Name">-------
+            <input type="text" placeholder="Age"><br><br>
+            <pr>Date :</pr>
+            <input type="date" placeholder="Date"> -------
+            <input type="text" placeholder="Email id"><br><br>
+            <input type="text" placeholder="PLace"><br><br>
+        </form>
+        <form action="/action.php">
+            <p>Gender :</p>
+            <input type="checkbox" value="Male" name="Gender">Male
+            <input type="checkbox" value="Female" name="Gender">female
+
+        </form>
+        <main>
+            <br><br>
+            <b>Health Questions</b>
+            <p>1. How Would you describe your Over All Health ?</p>
+            
+            <form action="/action.php">
+              <label> <input type="checkbox" value="Excellent" name="Excellent">Excellent </label>
+               <label><input type="checkbox" value="Very Good" name="Very Good">Very Good </label>
+                <label><input type="checkbox" value="Good" name="Good">Good </label>
+                <labl><input type="checkbox" value="Fair" name="Fair">Fair </label>
+                <label><input type="checkbox" value="Poor" name="Poor">Poor </label>
+                
+            </form>
+            <br><br>
+            
+            
+
+            <p>2. Do You any chronic health Conditions?</p>
+            
+            <form action="/action.php">
+              <label> <input type="checkbox" value="Heart disease" name="Heart disease">Heart disease </label>
+               <label><input type="checkbox" value="Diabetes" name="Diabetes">Diabetes </label>
+                <label><input type="checkbox" value="Hypertention" name="Hypertention">Hypertention </label>
+                <labl><input type="checkbox" value="Asthama" name="Asthama">Asthama </label>
+                <label><input type="checkbox" value="others" name="others">others </label>
+                
+            </form>
+            <br><br>
+
+            <p>3. How often do you engage in pysical activity or exercise ?</p>
+            
+            <form action="/action.php">
+              <label> <input type="checkbox" value="Excellent" name="Excellent">Daily </label>
+               <label><input type="checkbox" value="Very Good" name="Very Good">3-5x a week</label>
+                <label><input type="checkbox" value="Good" name="Good">1-2x a week </label>
+                <labl><input type="checkbox" value="Fair" name="Fair">Rearly</label>
+                <label><input type="checkbox" value="Poor" name="Poor">Never </label>
+                
+            </form>
+
+            <p>4. Do you smoke or use tobacco products ?</p>
+            
+            <form action="/action.php">
+              <label> <input type="checkbox" value="Excellent" name="Excellent">Regularly </label>
+               <label><input type="checkbox" value="Very Good" name="Very Good">occasianlly</label>
+                <label><input type="checkbox" value="Good" name="Good">Never</label>
+                <labl><input type="checkbox" value="Fair" name="Fair">Quit </label>
+                <label><input type="checkbox" value="Poor" name="Poor">Others </label>
+                
+            </form>
+            <br><br>
+
+
+            <p>5. How do you rate your stress level ?</p>
+            
+            <form action="/action.php">
+              <label> <input type="checkbox" value="Excellent" name="Excellent">Low </label>
+               <label><input type="checkbox" value="Very Good" name="Very Good">Moderate </label>
+                <label><input type="checkbox" value="Good" name="Good">High </label>
+                <labl><input type="checkbox" value="Fair" name="Fair">Very high </label>
+                <label><input type="checkbox" value="Poor" name="Poor">None </label>
+                
+            </form>
+            <br><br>
+
+
+            <p>6. How often do you consume fruits & vegitables in your diet ?</p>
+            
+            <form action="/action.php">
+              <label> <input type="checkbox" value="Excellent" name="Excellent">Daily </label>
+               <label><input type="checkbox" value="Very Good" name="Very Good">3-5x a week </label>
+                <label><input type="checkbox" value="Good" name="Good">1-2x a week </label>
+                <labl><input type="checkbox" value="Fair" name="Fair">Rearly </label>
+                <label><input type="checkbox" value="Poor" name="Poor">Never </label>
+                
+            </form>
+            <br><br>
+            
+            <p>7. How much do you run in week ?</p>
+            <select name="Runnig">
+            <option value="Daily">Daily</option>
+            <option value="2 times in week">2 times in a week</option>
+            <option value="Rearly">Rearly</option>
+            <option value="i dont know">i don't Know</option>
+
+            </select>
+
+            
+
+
+
+
+
+        </main><br><br>
+        <footer>
+            <b>Additional Comments or Concerns / Feedback (optional)</b><br>
+            <textarea name="Feedback" id="101" placeholder="Feedback" rows="6">Write Somthing Here.
+
+            </textarea>
+
+
+        </footer>
+
+
+
+    </header>
+
+
+
+
+</body>
+
+</html>
